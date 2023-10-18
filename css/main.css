@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contianer {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.header_contianer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 162px;
+}
+
+.header_content_box {
+    display: flex;
+}
+
+.header_list {
+    align-items: center;
+    margin-left: 35px;
+    display: flex;
+    gap: 41px;
+}
+
+.header_link {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.header_link:hover {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.header_btn {
+    padding: 13px 30px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* hero */
+.hero_content {
+    width: 555px;
+}
+
+.hero_content_title {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 42px;
+
+}
+
+.hero_content_text {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 50px;
+    opacity: 0.7;
+
+}
+
+.hero_btn_box {
+    display: flex;
+    gap: 30px;
+}
+
+.hero_btn {
+    padding: 21px 40px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero_btn1 {
+    padding: 21px 40px;
+    border-radius: 5px;
+    border: 1.5px solid #FBF1E6;
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-image: url(../img/hero.png);
+    background-position-y: 30px;
+    background-position-x: 680px;
+}
+
+.hero_contianer {
+    padding-bottom: 117px;
+}
+
+.Features {
+    padding-top: 115px;
+    padding-bottom: 108px;
+}
+
+.Features_title {
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.Features_title2 {
+    text-align: center;
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 44px;
+}
+
+.Features_item,
+.Features_item2,
+.Features_item3 {
+    width: 300px;
+}
+
+.Features_item_title {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+
+
+}
+
+.Features_item_text {
+    color: #150C01;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.Features_item::before {
+    width: 88px;
+    height: 88px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/features-icon.svg);
+    margin-bottom: 33px;
+}
+
+.Features_item2::before {
+    width: 88px;
+    height: 88px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/features2-icon.svg);
+    margin-bottom: 33px;
+}
+
+.Features_item3::before {
+    width: 88px;
+    height: 88px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/features3-icon.svg);
+    margin-bottom: 33px;
+}
+
+.Features_list {
+    display: flex;
+    text-align: center;
+    gap: 90px;
+}
+
+/* About */
+.About {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.About_content {
+    width: 487px;
+    padding-top: 100px;
+}
+
+.About_img {
+    border-radius: 28px;
+}
+
+.About_title {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    opacity: 0.7;
+}
+
+.About_text {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.625px;
+    margin-bottom: 30px;
+}
+
+.About_text2 {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 29px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.About_btn {
+    padding: 11px 34px;
+    border-radius: 5px;
+    background: #DC780B;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* treaty */
+.treaty_title {
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 9px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.treaty_title2 {
+    text-align: center;
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.treaty_text {
+    width: 748px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 55px;
+
+}
+
+.treaty_item,
+.treaty_item2,
+.treaty_item3,
+.treaty_item4,
+.treaty_item5,
+.treaty_item6 {
+    border-radius: 75px 10px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    width: 360px;
+    position: relative;
+}
+
+.treaty_item_img {
+    border-radius: 75px 10px 75px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-bottom: 21px;
+}
+
+.treaty_item_contianer {
+    padding: 0 25px 25px 25px;
+}
+
+.treaty_item_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.treaty_item_box_title {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.treaty_item_box_price {
+    color: #150C01;
+    text-align: right;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.treaty_item_text {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.treaty_item_btn {
+    padding: 5px 13px;
+    background-color: #DC780B;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 22px;
+
+}
+
+.treaty {
+    padding-bottom: 120px;
+}
+
+.treaty_item::after {
+    content: "";
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/star.svg);
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.treaty_item2::after {
+    content: "";
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/star5.svg);
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.treaty_item3::after {
+    content: "";
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/star3.svg);
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.treaty_item4::after {
+    content: "";
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/star2.svg);
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.treaty_item5::after {
+    content: "";
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/star.svg);
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.treaty_item6::after {
+    content: "";
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/star3.svg);
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.treaty_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.treaty_btn {
+    padding: 11px 30px;
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #FCF2E7;
+}
+
+.treaty_btn_box {
+    text-align: center;
+}
+
+/* take */
+.take {
+    background-color: #FDF9F5;
+}
+
+.Take_contianer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.take_title {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.take_title2 {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.625px;
+    margin-bottom: 29px;
+}
+
+.take_content {
+    width: 555px;
+    padding-top: 141px;
+}
+
+.take_text {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 39px;
+    opacity: 0.7;
+
+}
+
+.take_btn_box {
+    display: flex;
+    gap: 30px;
+}
+
+.take_btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #150C01;
+    padding: 15px 30px 14px 62px;
+    background-repeat: no-repeat;
+    background-image: url(../img/appel.svg);
+    background-position: left 28px center;
+    border-radius: 5px;
+
+}
+
+.take_btn2 {
+    padding: 15px 30px 14px 62px;
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FDF9F5;
+    border-radius: 5px;
+    border: 1px solid #E6E2DD;
+    background-repeat: no-repeat;
+    background-image: url(../img/play-market.svg);
+    background-position: left 29px center;
+}
+
+.take_img_box {
+    position: absolute;
+    top: -67px;
+    right: 0;
+
+}
+
+.take_img {
+    border-radius: 47px;
+}
+
+.Take_contianer {
+    position: relative;
+}
+
+.take {
+    padding-bottom: 70px;
+
+}
+
+/* Testimonial */
+.Testimonial {
+    padding-top: 213px;
+    text-align: center;
+
+}
+
+.Testimonial_title {
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+
+.Testimonial_title2 {
+    text-align: center;
+    color: #000;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.Testimonial_text {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 24px;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 17px;
+}
+
+.Testimonial_text2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 506px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.Testimonial_img {
+    display: inline-block;
+    width: 88px;
+    height: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/testimonial.svg);
+    margin-bottom: 32px;
+}
+
+.Testimonial_aug {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.Testimonial_ui {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.Testimonial {
+    padding-bottom: 120px;
+}
+
+/* contact */
+.contact {
+    background-color: #FCF2E7;
+}
+
+.contact_contianer {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 117px;
+}
+
+.contact_title {
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.contact_text {
+    color: #150C01;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    text-align: center;
+    width: 749px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+}
+
+.contact_box {
+
+    display: inline-block;
+    position: relative;
+    width: 750px;
+
+}
+
+.contact_input {
+    padding: 32px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFF;
+    padding-right: 156px;
+    outline-width: 1px;
+    outline-color: #DC780B;
+    border: none;
+}
+
+.contact_input::placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    opacity: 0.5;
+}
+
+.contact_btn {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #DC780B;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    padding: 20px 57px;
+    border: none;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+/* footer */
+.footer_bg {
+    background-color: #252525;
+}
+
+.footer_logo_img {
+    margin-bottom: 25px;
+}
+
+.footer_logo_text {
+    margin-bottom: 16px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 400;
+
+}
+
+.footer {
+    padding-top: 137px;
+    padding-bottom: 104px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer_logo {
+    width: 262px;
+}
+
+.footer_item {
+    margin-bottom: 26px;
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_list {
+    width: 262px;
+}
+
+.footer_link {
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.link_box {
+    display: flex;
+    gap: 10px;
+}
